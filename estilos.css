@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0cm;
+    background-image: url(/imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.logotitulo {
+    float: left;
+}
+
+.nombre {
+    color: #fff;
+    font-size: 82%;
+    float: inherit;
+    text-align: center;
+}
+
+.nombre2 {
+    background-color: #34978c;
+    color: #fff;
+    font-size: 82%;
+    float: inherit;
+    text-align: center;
+}
+
+.sep {
+    width: 100%;
+}
+
+.logo {
+    align-items: center;
+    display: float;
+    width: 10%;
+    height: auto;
+}
+
+.bachillerato {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: #0d7b97;
+    width: 100%;
+    align-items: center;
+    height: 10%;
+    border-color: transparent
+}
+
+.barra {
+    color: #0d7b97;
+    width: 100%;
+    align-items: center;
+    height: 5%;
+    border-color: transparent
+}
+
+.bach p {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-shadow: 2px 0 8px rgba(0, 0, 0, 7);
+    -webkit-text-stroke: 2px rgb(39, 197, 202);
+}
+
+.imagenizquierda {
+    float: left;
+}
+
+.imagenderecha {
+    float: right;
+}
+
+.titulos {
+    background-color: #34978c;
+    color: #fff;
+    font-size: 82%;
+    float: inherit;
+    text-align: center;
+}
+
+.rh {
+    float: left;
+}
+
+.parrafos {
+    color: #fff;
+    background-color: #34978c;
+    font-size: 110%;
+    float: inherit;
+    text-align: justify;
+}
+
+.listas {
+    background-color: #34978c;
+    color: #fff;
+    font-size: 110%;
+    float: inherit;
+    text-align: left;
+}
+
+.container-card {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card .contenido-card {
+    padding: 25px;
+    text-align: left;
+}
+
+.navegacion {
+    width: 100%;
+}
+
+.navegacion nav {
+    width: 100%;
+    max-width: 1500px;
+    background: #0d7b97;
+}
+
+.navegacion nav ul {
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+
+.navegacion nav>ul>li {
+    display: inline-block;
+}
+
+.navegacion nav>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.navegacion nav>ul>li>a span {
+    font-size: 20px;
+    position: absolute;
+    bottom: -8px;
+    display: none;
+}
+
+.navegacion nav>ul>li:hover span {
+    display: block;
+}
+
+.navegacion nav ul li .submenu {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    display: none;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.navegacion nav ul li:hover .submenu {
+    display: flex;
+}
+
+.navegacion nav ul li .submenu .submenu-items {
+    margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p {
+    font-weight: 600;
+    width: 110px;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #565656;
+    margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a {
+    color: #474747;
+    text-decoration: none;
+    margin: 6px 0;
+    display: block;
+}
